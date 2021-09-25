@@ -1,6 +1,6 @@
 var full_name_obj = document.getElementsByTagName("h1")
-var full_name = full_name_obj[0].innerText.split()
-var cname = document.getElementsByClassName("pv-entity__secondary-title t-14 t-black t-normal")[0].innerText.split(" ")[0]
+var full_name = full_name_obj[0].innerText.split(" ")
+var cname = document.getElementsByClassName("pv-entity__secondary-title t-14 t-black t-normal")[0].innerText
 var data= {
     "fname":full_name[0],
     "lname":full_name[1],
